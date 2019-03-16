@@ -8,10 +8,10 @@ const Reset = styled(Button)`
     box-shadow: none;
     font-weight: normal;
     border-radius: 0;
-    cursor: pointer;
+    cursor: pointer;    
 `
 
-export const ButtonBase = ({ children, ...props }) => (
+export const ButtonBase = ({ children, ...props}) => (
     <Reset {...props}>{children}</Reset>
 )
 

@@ -405,19 +405,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "diegocar18.itdev164/masthead/index@1.0.0": {
-        "files": [
-            {
-                "relativePath": "src/components/Masthead/index.js",
-                "test": false,
-                "name": "index.js"
-            }
-        ],
-        "mainFile": "src/components/Masthead/index.js",
-        "origin": "AUTHORED",
-        "exported": true
-    },
-    "diegocar18.itdev164/components/masthead@1.0.0": {
+    "diegocar18.itdev164/components/masthead@1.0.1": {
         "files": [
             {
                 "relativePath": "src/components/Masthead/Masthead.js",
@@ -435,7 +423,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "diegocar18.itdev164/masthead/masthead@1.0.0": {
+    "diegocar18.itdev164/masthead/masthead@1.0.1": {
         "files": [
             {
                 "relativePath": "src/components/Masthead/Masthead.js",
@@ -444,6 +432,18 @@
             }
         ],
         "mainFile": "src/components/Masthead/Masthead.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "diegocar18.itdev164/masthead/index@1.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/Masthead/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/Masthead/index.js",
         "origin": "AUTHORED",
         "exported": true
     },

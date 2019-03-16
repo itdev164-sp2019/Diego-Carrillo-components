@@ -15,6 +15,16 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n    color: white;\n    text-decoration: none;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject() {
   var data = _taggedTemplateLiteral(["\n    height: ", ";\n    width: 100%;\n    background-color: rebeccapurple;\n    margin-bottom: 1.45rem;\n"]);
 
@@ -30,18 +40,15 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var Outer = (0, _styledComponents.default)(_rebass.Box)(_templateObject(), function (props) {
   return props.height;
 });
+var StyledLink = (0, _styledComponents.default)(_rebass.Link)(_templateObject2());
 
 var Masthead = function Masthead(_ref) {
   var height = _ref.height,
       siteTitle = _ref.siteTitle;
   return _react.default.createElement(Outer, {
     height: height
-  }, _react.default.createElement(_rebass.Link, {
-    href: "/",
-    style: {
-      color: "white",
-      textDecoration: "none"
-    }
+  }, _react.default.createElement(StyledLink, {
+    href: "/"
   }, siteTitle));
 };
 

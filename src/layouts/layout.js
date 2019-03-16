@@ -9,6 +9,7 @@ import { Masthead } from '../components/Masthead'
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
+  <StaticQuery
     query={graphql`
       query SiteTitleQuery {
         site {

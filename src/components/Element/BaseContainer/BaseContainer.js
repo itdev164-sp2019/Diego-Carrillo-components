@@ -1,6 +1,6 @@
-import React from 'react' 
-import PropTypes from 'prop-types'
-import { Flex, Box } from 'rebass'
+import React from 'react'  // 8.5k (gzipped: 3.4k)
+import PropTypes from 'prop-types' //1.6k (gzipped: 838)
+import { Flex, Box } from 'rebass' //15.3K (gzipped: 4.7k)
 
 export const BaseContainer = ({ children, flex, ...props }) => {
     if (flex) {
@@ -9,12 +9,11 @@ export const BaseContainer = ({ children, flex, ...props }) => {
             {children}
             </Flex>
         )
-    
     } else {
         return (
-            <Box {...props} className={props.className}>
-            {children}
-            </Box>
+            <box {...props} className={props.className}>
+                {children}
+            </box>
         )
     }
 }

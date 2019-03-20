@@ -1,9 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 
+<<<<<<< HEAD
 import Layout from "../layouts/layout"
 import Image from "../gatsby-components/image"
 import SEO from "../gatsby-components/seo"
+=======
+import Layout from "../components/layout"
+import Image from "../components/image"
+import SEO from "../components/seo"
+>>>>>>> ca5ba4a889f057d9e47a48e8ae35ef04bff477c5
 import { Button, IconButton, Section } from '../components/Element'
 import { Search } from 'styled-icons/feather'
 

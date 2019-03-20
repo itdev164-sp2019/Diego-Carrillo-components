@@ -1,11 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import "./layout.css"
 import { ThemeProvider } from 'styled-components'
 import { Gray as theme } from '../themes/Gray'
 import { Footer, Main } from '../components/Element'
 import { Masthead } from '../components/Masthead'
+import "./layout.css"
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
